@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		609534B62A1415BB0013291F /* Centroid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 609534B42A1415BB0013291F /* Centroid.cpp */; };
+		609775122A1320F900334AD8 /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 609775112A1320F900334AD8 /* Point.cpp */; };
+		609775142A132D0000334AD8 /* KMeans.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 609775132A132D0000334AD8 /* KMeans.cpp */; };
 		60E2DCBE2A11F53D007DDE2B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60E2DCBD2A11F53D007DDE2B /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		609534B42A1415BB0013291F /* Centroid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Centroid.cpp; sourceTree = "<group>"; };
+		609534B52A1415BB0013291F /* Centroid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Centroid.h; sourceTree = "<group>"; };
+		6097750E2A12FD5400334AD8 /* Point.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Point.h; sourceTree = "<group>"; };
+		609775112A1320F900334AD8 /* Point.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Point.cpp; sourceTree = "<group>"; };
+		609775132A132D0000334AD8 /* KMeans.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KMeans.cpp; sourceTree = "<group>"; };
+		609D234E2A12B28400F22033 /* KMeans.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMeans.h; sourceTree = "<group>"; };
 		60E2DCBA2A11F53D007DDE2B /* K-Means_Clustering */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "K-Means_Clustering"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60E2DCBD2A11F53D007DDE2B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				60E2DCBD2A11F53D007DDE2B /* main.cpp */,
+				609D234E2A12B28400F22033 /* KMeans.h */,
+				6097750E2A12FD5400334AD8 /* Point.h */,
+				609775112A1320F900334AD8 /* Point.cpp */,
+				609775132A132D0000334AD8 /* KMeans.cpp */,
+				609534B42A1415BB0013291F /* Centroid.cpp */,
+				609534B52A1415BB0013291F /* Centroid.h */,
 			);
 			path = "K-Means_Clustering";
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				609775122A1320F900334AD8 /* Point.cpp in Sources */,
+				609775142A132D0000334AD8 /* KMeans.cpp in Sources */,
 				60E2DCBE2A11F53D007DDE2B /* main.cpp in Sources */,
+				609534B62A1415BB0013291F /* Centroid.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
